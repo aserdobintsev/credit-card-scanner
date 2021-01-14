@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "CreditCardScanner",
-            dependencies: ["Reg", "Sukar"]
+            dependencies: ["Reg"]
         ),
         .testTarget(
             name: "CreditCardScannerTests",
