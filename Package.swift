@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "CreditCardScanner",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v10)],
     products: [
         .library(
             name: "CreditCardScanner",
