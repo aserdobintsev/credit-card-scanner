@@ -12,8 +12,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/yhkaplan/Reg.git", from: "0.3.0"),
-        .package(url: "https://github.com/yhkaplan/Sukar.git", from: "0.1.0"),
+        .package(url: "https://github.com/yhkaplan/Reg.git", from: "0.3.0")
     ],
     targets: [
         .target(
