@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "CreditCardScanner",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v10)],
     products: [
         .library(
             name: "CreditCardScanner",
@@ -12,13 +12,12 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/yhkaplan/Reg.git", from: "0.3.0"),
-        .package(url: "https://github.com/yhkaplan/Sukar.git", from: "0.1.0"),
+        .package(url: "https://github.com/yhkaplan/Reg.git", from: "0.3.0")
     ],
     targets: [
         .target(
             name: "CreditCardScanner",
-            dependencies: ["Reg", "Sukar"]
+            dependencies: ["Reg"]
         ),
         .testTarget(
             name: "CreditCardScannerTests",
